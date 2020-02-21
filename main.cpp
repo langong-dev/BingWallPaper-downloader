@@ -41,10 +41,7 @@ int main ()
         }
     }
     get:
-
-        cout << text << endl;
-        cout << "====================================================================\n";
-        char c[100] = "wget cn.bing.com";
+        char c[100] = "wget -O wallpaper.jpg cn.bing.com";
         strcat (c, url);
         system (c);
     return 0;
