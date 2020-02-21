@@ -28,5 +28,6 @@ you can see a source file `main.cpp` and a binary `a.out`. you can revise `main.
 
 ```shell
 # run
+$ chmod +x a.out
 $ ./a.out
 ```
