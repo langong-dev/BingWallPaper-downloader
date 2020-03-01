@@ -37,13 +37,13 @@ int main ()
                 j++;
                 i++;
             }
-            goto get;
+            break;
         }
     }
-    get:
-        char c[100] = "wget -O wallpaper.jpg cn.bing.com";
-        strcat (c, url);
-        system (c);
+    char c[100] = "wget -O /home/jason/myphoto/wallpaper.jpg \"cn.bing.com";
+    strcat (c, url);
+    char hh[5] = "\"";
+    strcat (c, hh);
+    system (c);
     return 0;
 }
-
