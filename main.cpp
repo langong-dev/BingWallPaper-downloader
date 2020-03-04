@@ -40,7 +40,7 @@ int main ()
             break;
         }
     }
-    char c[100] = "wget -O /home/jason/myphoto/wallpaper.jpg \"cn.bing.com";
+    char c[100] = "wget -O wallpaper.jpg \"cn.bing.com";
     strcat (c, url);
     char hh[5] = "\"";
     strcat (c, hh);
