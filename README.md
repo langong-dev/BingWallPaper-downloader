@@ -1,6 +1,6 @@
 # Bing wall paper downloader
 
-This is a programme for downloading a wallpaper from cn.bing.com
+This is a programme for downloading a wallpaper from <cn.bing.com>
 
 # Attention
 This programme must be run under the circumstance of UNIX, and rely on **wget**.
